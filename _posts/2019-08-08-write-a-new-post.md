@@ -247,7 +247,7 @@ image:
 ---
 ```
 
-> You can observe LQIP in the preview image of post \"[Text and Typography](../text-and-typography/)\".
+> You can observe LQIP in the preview image of post \"[Text and Typography]\".
 
 For normal images:
 
@@ -503,3 +503,4 @@ Then you can use it like other markdown languages: surround the graph code wit `
 ## Learn More
 
 For more knowledge about Jekyll posts, visit the [Jekyll Docs: Posts](https://jekyllrb.com/docs/posts/).
+

@@ -498,7 +498,7 @@ mermaid: true
 ---
 ```
 
-Then you can use it like other markdown languages: surround the graph code with ```` ```mermaid ```` and ```` ``` ````.
+Then you can use it like other markdown languages: surround the graph code wit ```` ```mermaid ```` and ```` ``` ````.
 
 ## Learn More
 

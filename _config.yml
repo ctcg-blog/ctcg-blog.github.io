@@ -119,8 +119,8 @@ comments:
   giscus:
     repo: ctcg-blog/ctcg-blog.github.io
     repo_id: R_kgDOMLbfeg
-    category: "General"
-    category_id: "DIC_kwDOMLbfes4CgMp3"
+    category: "Announcements"
+    category_id: "DIC_kwDOMLbfes4CgMp2"
     mapping: "pathname"
     strict: # optional, default to '0'
     input_position: "bottom" # optional, default to 'bottom'

@@ -112,7 +112,7 @@ comments:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
-  utterances:
+  utterances: #
     repo: #
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
@@ -121,12 +121,11 @@ comments:
     repo_id: R_kgDOMLbfeg
     category: "Announcements"
     category_id: "DIC_kwDOMLbfes4CgMp2"
-    mapping: "pathname"
+    # mapping: # "pathname"
     strict: # optional, default to '0'
     input_position: "bottom" # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: "1" # optional, default to the value of `1`
-    crossorigin: "anonymous"
+    # lang: # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:

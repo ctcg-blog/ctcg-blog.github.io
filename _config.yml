@@ -120,7 +120,7 @@ comments:
     repo: ctcg-blog/ctcg-blog.github.io
     repo_id: R_kgDOMLbfeg
     category: "Posts"
-    category_id: "DIC_kwDOMLbfes4CgMp"
+    category_id: "DIC_kwDOMLbfes4CgMp3"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: "top" # optional, default to 'bottom'

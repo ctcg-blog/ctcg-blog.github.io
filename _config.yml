@@ -119,13 +119,14 @@ comments:
   giscus:
     repo: ctcg-blog/ctcg-blog.github.io
     repo_id: R_kgDOMLbfeg
-    category: "posts"
+    category: "General"
     category_id: "DIC_kwDOMLbfes4CgMp3"
     mapping: "pathname"
     strict: # optional, default to '0'
-    input_position: "top" # optional, default to 'bottom'
+    input_position: "bottom" # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: "1" # optional, default to the value of `1`
+    crossorigin: "anonymous"
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:

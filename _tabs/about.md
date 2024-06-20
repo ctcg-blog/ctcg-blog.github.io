@@ -10,11 +10,11 @@ Welcome to our IT Security Blog, your go-to resource for cutting-edge insights o
 
 ## Meet the Team
 
-- **Coppertop**: Master of infrastructure assessment, blue teaming, and the finest memes and GIFs in the cyberverse.
-- **Rooster**: Specialist in web application pentesting and vulnerability assessments.
-- **Smurfette**: Focuses on exploit development and malware analysis.
-- **Clarice**: Proficient in wireless security and cryptography.
-- **Synthetic**: Skilled in red teaming strategies and threat hunting.
+- **Coppertop**: Master of infrastructure assessment, decent at Web and API testing (we're working on it), expert in blue teaming, and our designated meme and GIF curator—because who says cybersecurity can't have a sense of humor?
+- **Rooster**: Web app wizard, API ninja, cloud connoisseur, and all-around nice guy.
+- **Smurfette**: Matriarch of the group, empress of Web and API testing, and unparalleled in writing reports and doing QA's
+- **Clarice**: Mobile, cloud, and all-round pentesting ninja, slicing through vulnerabilities with stealth and precision.
+- **Synthetic**: The boss, red teaming enthusiast, and long-term pentesting veteran. Think of him as the Gandalf of cybersecurity—minus the beard.
 
 ## Join Us
 

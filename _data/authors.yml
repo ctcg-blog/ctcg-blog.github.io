@@ -11,6 +11,21 @@ Coppertop:
   url: https://github.com/Coppertop-6
 
 Test:
-  name: Test
-  twitter: test
-  url: https://github.com/test
+  name: Rooster
+  twitter: Rooster
+  url: https://github.com/Rooster
+
+Test:
+  name: Smurfette
+  twitter: Smurfette
+  url: https://github.com/Smurfette
+
+Test:
+  name: Clarice
+  twitter: Clarice
+  url: https://github.com/Clarice
+
+Test:
+  name: Synthetic
+  twitter: Synthetic
+  url: https://github.com/Synthetic

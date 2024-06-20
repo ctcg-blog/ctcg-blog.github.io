@@ -1,0 +1,16 @@
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+Coppertop:
+  name: Coppertop
+  twitter: Coppertop109
+  url: https://github.com/Coppertop-6
+
+Test:
+  name: Test
+  twitter: test
+  url: https://github.com/test

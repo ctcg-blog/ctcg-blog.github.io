@@ -3,7 +3,7 @@ title: Writing a New Post
 author: Coppertop
 date: 2024-06-19 14:10:00 +0800
 categories: [Blog, Tutorial]
-tags: [writing]
+tags: [writing] #   TAG should always be lowercase
 render_with_liquid: false
 ---
 

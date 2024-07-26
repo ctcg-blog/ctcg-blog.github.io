@@ -1,6 +1,6 @@
 ---
 title: Building your own Vulnerable AD LAB
-date: 2024-07-25 12:00:00 -500
+date: 2024-07-24 12:00:00 -500
 author: Coppertop
 categories: [Blog]
 tags: [Active-Directory,Labs]     #   TAG should always be lowercase
@@ -125,7 +125,7 @@ Follow these steps on the machines you want to join to the domain (MS01 and MS02
 2.  On the second machine, give both domain users (Kenny, Rick) local administrator rights. (MS02)
 3.  Create a network share folder.
 4.  Create a folder named “YFO” and “Morty” in the C: drive.
-5.  Right-click on the folder, go to “Properties” > “Sharing” > “Share” > “Share” > “Yes, turn on network discovery…”.
+5.  Right-click on the folder, go to “Properties” > “Sharing” > “Share” > “Share” > “Yes, turn on network discovery…”
 
 
 ## Set GPO to diable AV

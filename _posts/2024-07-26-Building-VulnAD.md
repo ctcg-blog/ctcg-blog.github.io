@@ -1,6 +1,6 @@
 ---
 title: Test 2024
-date: 2024-07-28 12:00:00 -500
+date: 2024-07-26 10:00:00 -500
 author: Coppertop
 categories: [Blog]
 tags: [Active-Directory,Labs]     #   TAG should always be lowercase

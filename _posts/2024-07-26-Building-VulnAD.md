@@ -7,8 +7,6 @@ tags: [Active-Directory,Labs]     #   TAG should always be lowercase
 
 ---
 
-# Building your own Vulnerable AD LAB
-
 Ever wondered what it would be like to build an Active Directory (AD) so frail it practically waves a white flag? Well, you're in luck! In this post, we’ll guide you through constructing a small but delightfully vulnerable AD that might as well come with its own set of hacker welcome mats. So, grab your popcorn and get ready to dive into the world of easily exploitable networks, where the goal is not just to build, but to build badly! Today, we'll ensure your AD is as robust as a sandcastle at high tide, vulnerable to the following attacks:
 
 * Abusing ACLs/ACEs

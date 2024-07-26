@@ -1,5 +1,5 @@
 ---
-title: Test 2024
+title: Building your own Vulnerable AD LAB
 date: 2024-07-25 12:00:00 -500
 author: Coppertop
 categories: [Blog]

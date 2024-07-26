@@ -47,14 +47,16 @@ Reboot your server and log back in to make sure everything has been setup as exp
 
 ## Configuring the Vulnerable AD Service via PS Script
 
-Run the below powershell commands as admin. To understand what is being setup have a look at the vunlad.ps1 file. (https://github.com/safebuffer/vulnerable-AD/blob/master/vulnad.ps1)
+Run the below powershell commands as admin. 
+
+To understand what is being setup have a look at the vunlad.ps1 file. (https://github.com/safebuffer/vulnerable-AD/blob/master/vulnad.ps1)
 
 ```powershell
 IEX((new-object net.webclient).downloadstring("https://raw.githubusercontent.com/wazehell/vulnerable-AD/master/vulnad.ps1"));
 Invoke-VulnAD -UsersLimit 100 -DomainName "domain.local"
 ```
 
-The script will add users, groups, SPN's etc to your domain.
+The script will add users, groups, SPNs etc to your domain.
 
 ![Run AD script](/assets/img/2.png)
 
@@ -69,7 +71,7 @@ For easy of AD use you can install the below features on your server.
 ![Install AD Tools](/assets/img/5.png)
 
 
-## **Additional manual configurations**
+## **Additional manual configurations for funzies**
 
 ## Configuring your File Server (Opening SMB)
 
@@ -80,7 +82,7 @@ Enable SMB file sharing and ensure ports 445 and 139 are open for future lab exe
 
 ![Configure SMB](/assets/img/6.png)
 
-## Creating Service Principal Name (SPN)
+## Creating a Service Principal Name (SPN)
 
 Set up for a Kerberoasting attack.
 
@@ -95,7 +97,7 @@ setspn -T domain.local -Q */* | findstr SQL
 ```
 ![Configure SPN](/assets/img/7.png)
 
-## Connecting Machines to your Domain
+## Connect two Machines to your Domain
 
 Follow these steps on the machines you want to join to the domain (MS01 and MS02):
 
@@ -119,7 +121,7 @@ Follow these steps on the machines you want to join to the domain (MS01 and MS02
 • On the Domain Controller, open “Active Directory Users and Computers” > domain.local > "Computers".
 • Verify if both computers are added.
 
-## Create a folder and set up a network share.
+## Create shares on your workstations. IYKYK :)
 
 1. On the first machine, give the first domain user (Kenny) local administrator rights. (MS01) 
 2.  On the second machine, give both domain users (Kenny, Rick) local administrator rights. (MS02)
@@ -128,9 +130,9 @@ Follow these steps on the machines you want to join to the domain (MS01 and MS02
 5.  Right-click on the folder, go to “Properties” > “Sharing” > “Share” > “Share” > “Yes, turn on network discovery…”
 
 
-## Set GPO to diable AV
+## Set GPO to disable AV
 
-Disable Windows Defender for lab purposes 
+Disable Windows Defender because ain't nobody got time for that.
 1. Open Group Policy Management as an administrator.
 2. Expand the Forest > Domains > domain.local.
 3. Right-click and create a new Group Policy Object (GPO) named “Disable Windows Defender” in this domain.

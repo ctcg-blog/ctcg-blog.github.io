@@ -15,7 +15,9 @@ Here’s a basic guide on how to set up Azure Front Door to function as a redire
 ## 1. **Create an Azure Front Door Instance**
 
    **Log in to the Azure Portal**: Navigate to the Azure Portal (https://portal.azure.com).
+
    **Create a Front Door**: Go to "Create a resource" and search for "Front Door". Click on "Front Door" and then "Create".
+
    **Configure Front Door**:
    - **Subscription and Resource Group**: Select your subscription and create or choose a resource group.
    - **Front Door Name**: Enter a unique name for your Front Door.
@@ -24,6 +26,7 @@ Here’s a basic guide on how to set up Azure Front Door to function as a redire
 ## 2. **Configure Backend Pools**
 
    **Add Backend Pools**: Specify the backends where the traffic will be directed. For redirection purposes, this may point to an endpoint that will handle the redirect logic or a web server.
+
    **Add Backends**: Enter the backend details like the hostname, and configure health probes to ensure your backend is reachable.
 
 ## 3. **Set Up Routing Rules**
@@ -43,11 +46,13 @@ Here’s a basic guide on how to set up Azure Front Door to function as a redire
 ## 5. **Custom Domain and SSL (Optional)**
 
    **Add Custom Domains**: If you are using a custom domain, add it under "Frontend hosts" and validate the domain ownership.
+
    **Configure SSL/TLS**: Set up SSL/TLS for secure connections. You can use a custom certificate or Azure Front Door’s managed certificate.
 
 ## 6. **Review and Create**
 
    **Review Settings**: Ensure all configurations are correct.
+
    **Create Front Door**: Click "Create" to deploy your Front Door instance with the redirect configurations.
 
 ### Example Scenario: Redirecting HTTP to HTTPS
@@ -55,7 +60,9 @@ Here’s a basic guide on how to set up Azure Front Door to function as a redire
 To redirect all HTTP traffic to HTTPS:
 
    **Frontend Host**: Set up a frontend host for HTTP traffic.
+
    **Routing Rule**: Create a rule to match HTTP requests.
+   
    **Redirect Configuration**:
    - **Redirect Type**: Permanent (301)
    - **Redirect Destination**: Use HTTPS schema (e.g., `https://{hostname}{path}`).

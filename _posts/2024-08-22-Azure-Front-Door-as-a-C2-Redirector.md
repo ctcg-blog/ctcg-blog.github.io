@@ -75,11 +75,11 @@ To redirect all HTTP traffic to HTTPS:
    **Monitor Traffic**: Use Azure Monitor and Front Door diagnostics to track traffic and redirect performance.
    **Test Redirects**: Ensure that redirects are functioning as expected by testing various scenarios.
 
-Using Azure Front Door as a redirector helps simplify complex routing rules and provides a global edge network to ensure fast and reliable redirects.
-
 ## Carry on from here ...
 
 Azure Front Door endpoint URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`
+
+Add in Mythic screen grabs ...
 
 Pics uploaded to assets folder ... 
 
@@ -115,11 +115,6 @@ Pics uploaded to assets folder ...
 
 ![Configure Azure Front Door](/assets/img/25.png)
 
-<<<<<<< HEAD
-Add in Mythic screen grabs ... 
-
-=======
->>>>>>> 384e0f088f3a50b772ace080c663c5a14288621f
 # Closing Remarks
 
 TBC ...
@@ -128,9 +123,3 @@ References
 
 * https://github.com/safebuffer/vulnerable-AD/
 * https://sethsec.blogspot.com/2017/08/pentest-home-lab-0x3-kerberoasting.html
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 384e0f088f3a50b772ace080c663c5a14288621f

@@ -1,5 +1,5 @@
 ---
-title: Azure FrontDoor as a C2 Redirector (Cloud Domain Fronting using Azure CDN)
+title: Azure Front Door as a C2 Redirector (Cloud Domain Fronting using Azure CDN)
 date: 2024-08-22 12:00:00 -500
 author: h3ll0clar1c3
 categories: [Blog]

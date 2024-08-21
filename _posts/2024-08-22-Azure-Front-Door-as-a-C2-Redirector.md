@@ -3,14 +3,17 @@ title: Azure Front Door as a C2 Redirector (Cloud Domain Fronting using Azure CD
 date: 2024-08-22 12:00:00 -500
 author: h3ll0clar1c3
 categories: [Blog]
-tags: [Red Team,C2, Azure]     #   TAG should always be lowercase
+tags: [Red Team,C2,Azure,Front Door,CDN],Redirector     #   TAG should always be lowercase
 
 ---
 
 Azure Front Door is a robust service for improving the availability and performance of your applications by providing global load balancing and application acceleration. 
+
 You can use Azure Front Door to handle redirects, which is particularly useful for scenarios like URL rewriting, domain migrations, or managing different environments.
 
-Here’s a basic guide on how to set up Azure Front Door to function as a redirector:
+Using Azure Front Door as a redirector helps simplify complex routing rules and provides a global edge network to ensure fast and reliable redirects.
+
+Here’s a basic guide on how to set up Azure Front Door to function as a C2 redirector:
 
 ## 1. **Create an Azure Front Door Instance**
 
@@ -112,6 +115,11 @@ Pics uploaded to assets folder ...
 
 ![Configure Azure Front Door](/assets/img/25.png)
 
+<<<<<<< HEAD
+Add in Mythic screen grabs ... 
+
+=======
+>>>>>>> 384e0f088f3a50b772ace080c663c5a14288621f
 # Closing Remarks
 
 TBC ...
@@ -120,5 +128,9 @@ References
 
 * https://github.com/safebuffer/vulnerable-AD/
 * https://sethsec.blogspot.com/2017/08/pentest-home-lab-0x3-kerberoasting.html
+<<<<<<< HEAD
+=======
 
 
+
+>>>>>>> 384e0f088f3a50b772ace080c663c5a14288621f

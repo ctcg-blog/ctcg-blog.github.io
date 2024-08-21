@@ -73,6 +73,34 @@ Pics uploaded to assets folder ...
 
 ![Configure Azure Front Door](/assets/img/11.png)
 
+![Configure Azure Front Door](/assets/img/12.png)
+
+![Configure Azure Front Door](/assets/img/13.png)
+
+![Configure Azure Front Door](/assets/img/14.png)
+
+![Configure Azure Front Door](/assets/img/15.png)
+
+![Configure Azure Front Door](/assets/img/16.png)
+
+![Configure Azure Front Door](/assets/img/17.png)
+
+![Configure Azure Front Door](/assets/img/18.png)
+
+![Configure Azure Front Door](/assets/img/19.png)
+
+![Configure Azure Front Door](/assets/img/20.png)
+
+![Configure Azure Front Door](/assets/img/21.png)
+
+![Configure Azure Front Door](/assets/img/22.png)
+
+![Configure Azure Front Door](/assets/img/23.png)
+
+![Configure Azure Front Door](/assets/img/24.png)
+
+![Configure Azure Front Door](/assets/img/25.png)
+
 Using Adri's write-up as a template ... remove all content from this point onward >
 
 Using Azure Front Door as a redirector helps simplify complex routing rules and provides a global edge network to ensure fast and reliable redirects.
@@ -218,3 +246,6 @@ References
 
 * https://github.com/safebuffer/vulnerable-AD/
 * https://sethsec.blogspot.com/2017/08/pentest-home-lab-0x3-kerberoasting.html
+
+
+[def]: /assets/img/10.png

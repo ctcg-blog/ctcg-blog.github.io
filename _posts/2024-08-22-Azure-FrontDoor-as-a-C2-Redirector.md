@@ -65,7 +65,7 @@ To redirect all HTTP traffic to HTTPS:
    **Monitor Traffic**: Use Azure Monitor and Front Door diagnostics to track traffic and redirect performance.
    **Test Redirects**: Ensure that redirects are functioning as expected by testing various scenarios.
 
-   Using Adri's write-up as a template ... remove >
+Using Adri's write-up as a template ... remove all content from this point onward >
 
 Using Azure Front Door as a redirector helps simplify complex routing rules and provides a global edge network to ensure fast and reliable redirects.
 

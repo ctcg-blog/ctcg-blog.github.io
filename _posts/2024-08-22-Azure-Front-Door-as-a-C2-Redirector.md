@@ -13,12 +13,12 @@ You can use Azure Front Door to handle redirects, which is particularly useful f
 
 Using Azure Front Door as a redirector helps simplify complex routing rules and provides a global edge network to ensure fast and reliable redirects.
 
-A high-level overview of the architecture is shown to illustrate the concept.
+A high-level overview of the architecture is shown to illustrate the concept (Credit: BigB0ss).
 
 ![Configure Azure Front Door](/assets/img/32.png)
 
 ![Configure Azure Front Door](/assets/img/33.png) 
-*Credit: BigB0ss
+
 
 Here’s a basic guide on how to set up Azure Front Door to function as a C2 redirector:
 

@@ -113,7 +113,7 @@ Azure Front Door Endpoint hostname/URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 ![Configure Azure Front Door](/assets/img/25.png)
 
-**Configure Azure Front Door SSL certificate keychain within C2 Profile**: Add in the Azure Front Door keychain to the C2 Profile.
+**Configure Azure Front Door SSL certificate keychain within C2 Profile**: Add in the Azure Front Door keychain (privkey.pem and fullchain.pem) to the C2 Profile.
 
 ![Configure Azure Front Door](/assets/img/31.png)
 

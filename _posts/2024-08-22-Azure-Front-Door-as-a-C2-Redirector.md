@@ -29,7 +29,7 @@ Here’s a basic guide on how to set up Azure Front Door to function as a C2 red
 
    **Configure Front Door**:
    - **Subscription and Resource Group**: Select your subscription and create or choose a resource group.
-   - **Front Door Name**: Enter a unique name for your Front Door.
+   - **Front Door Name**: Enter a unique name for your Front Door (e.g., `fd-1`).
    - **Frontend Hosts**: Define the frontend hostname (e.g., `test-dnh9h9fyezd8d5f9.a01.azurefd.net`).
   
   ![Configure Azure Front Door](/assets/img/13.png)
@@ -42,7 +42,7 @@ In this example we will not be using a custom domain, so we can proceed without 
 
    **Add Backend Pools**: Specify the backends where the traffic will be directed. For redirection purposes, this may point to an endpoint that will handle the redirect logic or a web server.
 
-   **Add Backends**: Enter the backend details like the hostname, and configure health probes to ensure your backend is reachable.
+   **Add Backends**: Enter the backend details like the hostname, and configure health probes to ensure your backend is reachable (e.g., `test-dnh9h9fyezd8d5f9.a01.azurefd.net`).
 
    ![Configure Azure Front Door](/assets/img/15.png)
 
@@ -117,7 +117,7 @@ Azure Front Door Endpoint hostname/URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 ![Configure Azure Front Door](/assets/img/31.png)
 
-**Select C2 Profiles**: Set the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g. Apollo Windows Exe payload utilising the 'http' C2 Profile `https://test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
+**Select C2 Profiles**: Set the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g., Apollo Windows Exe payload utilising the 'http' C2 Profile `https://test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 ![Configure Azure Front Door](/assets/img/26.png)
 

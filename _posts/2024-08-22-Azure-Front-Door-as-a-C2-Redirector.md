@@ -19,6 +19,8 @@ Here’s a basic guide on how to set up Azure Front Door to function as a C2 red
 
    **Log in to the Azure Portal**: Navigate to the Azure Portal (https://portal.azure.com).
 
+   ![Configure Azure Front Door](/assets/img/10.png)
+
    **Create a Front Door**: Go to "Create a resource" and search for "Front Door". Click on "Front Door" and then "Create".
 
    **Configure Front Door**:

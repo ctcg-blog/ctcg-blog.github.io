@@ -115,6 +115,8 @@ Pics uploaded to assets folder ...
 
 ![Configure Azure Front Door](/assets/img/25.png)
 
+![Configure Azure Front Door](/assets/img/26.png)
+
 # Closing Remarks
 
 TBC ...

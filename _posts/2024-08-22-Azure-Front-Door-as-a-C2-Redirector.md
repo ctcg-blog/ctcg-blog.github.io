@@ -117,9 +117,15 @@ Azure Front Door Endpoint hostname/URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 ![Configure Azure Front Door](/assets/img/31.png)
 
-**Select C2 Profiles**: Configure the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g. Apollo Windows Exe Payload utilising the 'http' C2 Profile 'https://test-dnh9h9fyezd8d5f9.a01.azurefd.net'.
+**Select C2 Profiles**: Set the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g. Apollo Windows Exe Payload utilising the 'http' C2 Profile 'https://test-dnh9h9fyezd8d5f9.a01.azurefd.net'.
 
 ![Configure Azure Front Door](/assets/img/26.png)
+
+**Trigger Payload**: Transfer the newly created payload to your 'vulnerable' victim/workstation, run the payload in a command terminal/powershell window.
+
+```powershell
+.\apolloCF_443_8001.exe
+```
 
 ![Configure Azure Front Door](/assets/img/27.png)
 

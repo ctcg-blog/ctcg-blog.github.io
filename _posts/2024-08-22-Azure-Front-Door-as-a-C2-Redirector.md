@@ -7,7 +7,7 @@ tags: [Red Team,C2,Azure,Front Door,CDN,Redirector,Mythic] #   TAG should always
 
 ---
 
-Azure Front Door is a robust service for improving the availability and performance of your applications by providing global load balancing and application acceleration. 
+Azure Front Door is a robust CDN (Content Delivery Network) service for improving the availability and performance of your applications by providing global load balancing and application acceleration. 
 
 You can use Azure Front Door to handle redirects, which is particularly useful for scenarios like URL rewriting, domain migrations, or managing different environments.
 
@@ -117,11 +117,11 @@ Azure Front Door Endpoint hostname/URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 ![Configure Azure Front Door](/assets/img/31.png)
 
-**Select C2 Profiles**: Set the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g. Apollo Windows Exe payload utilising the 'http' C2 Profile 'https://test-dnh9h9fyezd8d5f9.a01.azurefd.net'.
+**Select C2 Profiles**: Set the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g. Apollo Windows Exe payload utilising the 'http' C2 Profile `https://test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 ![Configure Azure Front Door](/assets/img/26.png)
 
-**Trigger Payload**: Transfer the newly created payload to your 'vulnerable' victim/workstation, run the payload in a command terminal/powershell window.
+**Trigger Payload**: Transfer the newly created payload to your 'vulnerable' victim/workstation, and run the payload in a command terminal/powershell window.
 
 ```powershell
 .\apolloCF_443_8001.exe
@@ -131,7 +131,7 @@ Azure Front Door Endpoint hostname/URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 ![Configure Azure Front Door](/assets/img/28.png)
 
-**Analyse C2 Beacon calling back to the Azure Front Door URL**: Launch Wireshark and listen on your local Ethernet adapter whilst filtering on 'TCP port 443' and 'IP address x.x.x.x' (perform a NS Lookup via DNS to find the IP address of the CDN Endpoint/hostname URL).
+**Analyse C2 Beacon calling back to the Azure Front Door URL**: Launch Wireshark and listen on your local Ethernet adapter whilst filtering on 'TCP port 443' and 'IP address x.x.x.x' (perform an NS Lookup via DNS to find the IP address of the CDN Endpoint/hostname URL).
 
 ```powershell
 tcp.port == 443 && ip.addr == x.x.x.x
@@ -145,7 +145,7 @@ tcp.port == 443 && ip.addr == x.x.x.x
 
 # Closing Remarks
 
-CDN's such as Azure Front Door, AWS CloudFront, and Cloudflare can be used as 'Cloud Domain Fronting' techniques with good effect. 
+CDN providers such as Azure Front Door, AWS CloudFront, and Cloudflare can be used as 'Cloud Domain Fronting' techniques with good effect. 
 
 AWS has since disabled the ability and feature to use their CDN service as C2 redirector resources, due to the mass-scale abuse of such resources, Cloudflare's 'Trust & Safety' team monitor the public web for misuse and abuse of their cloud resources, it is difficult to predict how long this technique will work in the future.
 

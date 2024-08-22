@@ -147,7 +147,9 @@ tcp.port == 443 && ip.addr == x.x.x.x
 
 CDN providers such as Azure Front Door, AWS CloudFront, and Cloudflare can be used as 'Cloud Domain Fronting' techniques with good effect. 
 
-AWS has since disabled the ability and feature to use their CDN service as C2 redirector resources, due to the mass-scale abuse of such resources, Cloudflare's 'Trust & Safety' team monitor the public web for misuse and abuse of their cloud resources, it is difficult to predict how long this technique will work in the future.
+AWS has since disabled the ability and feature to use their CDN service as C2 redirector resources, due to the mass-scale abuse of such resources. 
+
+Cloudflare's 'Trust & Safety' team monitor the public web for misuse and abuse of their cloud resources, it is difficult to predict how long this technique will work in the future.
 
 References 
 

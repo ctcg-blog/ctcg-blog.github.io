@@ -19,7 +19,6 @@ A high-level overview of the architecture is shown to illustrate the concept (Cr
 
 ![Configure Azure Front Door](/assets/img/33.png) 
 
-
 Here’s a basic guide on how to set up Azure Front Door to function as a C2 redirector:
 
 ## 1. **Create an Azure Front Door Instance**

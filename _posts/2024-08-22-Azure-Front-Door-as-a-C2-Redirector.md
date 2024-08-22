@@ -23,10 +23,20 @@ Here’s a basic guide on how to set up Azure Front Door to function as a C2 red
 
    **Create a Front Door**: Go to "Create a resource" and search for "Front Door". Click on "Front Door" and then "Create".
 
+   ![Configure Azure Front Door](/assets/img/11.png)
+
+   ![Configure Azure Front Door](/assets/img/12.png)
+
    **Configure Front Door**:
    - **Subscription and Resource Group**: Select your subscription and create or choose a resource group.
    - **Front Door Name**: Enter a unique name for your Front Door.
    - **Frontend Hosts**: Define the frontend hostname (e.g., `www.example.com`).
+  
+  ![Configure Azure Front Door](/assets/img/13.png)
+
+In this example we will not be using a custom domain, so there will be no need for adding a secret or SSL certificate.
+
+  ![Configure Azure Front Door](/assets/img/14.png)
 
 ## 2. **Configure Backend Pools**
 
@@ -80,16 +90,6 @@ To redirect all HTTP traffic to HTTPS:
 ## Carry on from here ...
 
 Azure Front Door endpoint URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`
-
-Add in Mythic screen grabs ...
-
-Pics uploaded to assets folder ... 
-
-![Configure Azure Front Door](/assets/img/10.png)
-
-![Configure Azure Front Door](/assets/img/11.png)
-
-![Configure Azure Front Door](/assets/img/12.png)
 
 ![Configure Azure Front Door](/assets/img/13.png)
 

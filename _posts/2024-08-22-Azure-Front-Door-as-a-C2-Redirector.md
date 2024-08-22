@@ -1,9 +1,9 @@
 ---
-title: Azure Front Door as a C2 Redirector (Cloud Domain Fronting using Azure CDN)
+title: Azure Front Door as a C2 Redirector (Domain Fronting using Azure CDN)
 date: 2024-08-22 12:00:00 -500
 author: h3ll0clar1c3
 categories: [Blog]
-tags: [Red Team,C2,Azure,Front Door,CDN,Redirector,Mythic] #   TAG should always be lowercase
+tags: [Red Team,C2,Azure,Front Door,CDN,Redirector,Mythic,Cloud] #   TAG should always be lowercase
 
 ---
 
@@ -145,11 +145,11 @@ tcp.port == 443 && ip.addr == x.x.x.x
 
 # Closing Remarks
 
-CDN providers such as Azure Front Door, AWS CloudFront, and Cloudflare can be used as 'Cloud Domain Fronting' techniques with good effect. 
+CDN providers such as Azure Front Door, and Cloudflare can be used as 'Cloud Domain Fronting' techniques with good effect. 
 
-AWS has since disabled the ability and feature to use their CDN service as C2 redirector resources, due to the mass-scale abuse of such resources. 
+Cloud providers such as Google and AWS have ended support for domain fronting (thereby removing the ability and feature to use their CDN service as C2 redirector resources), due to the mass-scale abuse of such resources. 
 
-Cloudflare's 'Trust & Safety' team monitor the public web for misuse and abuse of their cloud resources, it is difficult to predict how long this technique will work in the future.
+As an example, Cloudflare's 'Trust & Safety' team actively monitor the public web for misuse and abuse of their cloud resources, it is difficult to predict how long this technique will work in the future.
 
 References 
 

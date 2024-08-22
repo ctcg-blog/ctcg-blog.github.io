@@ -109,11 +109,15 @@ To redirect all HTTP traffic to HTTPS:
 
 ## 7. **Configure Azure Front Door Endpoint as a C2 Redirector URL**
 
-Azure Front Door Endpoint hostname/URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`
+Azure Front Door Endpoint hostname/URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 ![Configure Azure Front Door](/assets/img/25.png)
 
-**Select C2 Profiles**: Configure the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g. Apollo Windows Exe Payload utilising the 'http' C2 Profile 'https://test-dnh9h9fyezd8d5f9.a01.azurefd.net'
+**Configure Azure Front Door SSL certificate keychain within C2 Profile**: Add in the Azure Front Door keychain to the C2 Profile.
+
+![Configure Azure Front Door](/assets/img/31.png)
+
+**Select C2 Profiles**: Configure the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g. Apollo Windows Exe Payload utilising the 'http' C2 Profile 'https://test-dnh9h9fyezd8d5f9.a01.azurefd.net'.
 
 ![Configure Azure Front Door](/assets/img/26.png)
 

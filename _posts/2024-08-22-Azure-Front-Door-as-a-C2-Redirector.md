@@ -155,7 +155,7 @@ CDN providers such as Azure Front Door, and Cloudflare can be used as 'Cloud Dom
 
 Cloud providers such as Google and AWS have ended support for domain fronting (thereby removing the ability and feature to use their CDN service as C2 redirector resources), due to the mass-scale abuse of such resources. 
 
-As an example, Cloudflare's 'Trust & Safety' team actively monitor the public web for misuse and abuse of their cloud resources, it is difficult to predict how long this technique will work in the future.
+As an example, Cloudflare's 'Trust & Safety' team actively monitor the public web for misuse and abuse of their cloud resources, it is difficult to predict how long this technique will work in the future. 
 
 References 
 

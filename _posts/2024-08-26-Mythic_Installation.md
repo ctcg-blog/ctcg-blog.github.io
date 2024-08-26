@@ -37,7 +37,7 @@ The Mythic C2 Framework is a powerful, open-source tool used for Command and Con
 Before installing Mythic, there are a few prerequisites you'll need to address. First, ensure that Docker is installed on your machine. 
 
 **Installing [docker.io](https://www.kali.org/docs/containers/installing-docker-on-kali/) on Kali Linux**
-```
+```bash
 sudo apt update
 sudo apt install -y docker.io
 sudo systemctl enable docker --now
@@ -46,40 +46,40 @@ docker
 
 Add your User to the docker group (This allows you to run docker commands without sudo). Once you logout and back in again it will take effect.
 
-```
+```bash
 sudo usermod -aG docker $USER
 ```
 
 **Installing [docker-ce](https://www.kali.org/docs/containers/installing-docker-on-kali/#installing-docker-ce-on-kali-linux) on Kali Linux**
 
 Set the Docker repository:
-```
+```bash
 echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bookworm stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list
 ```
 
 Import the gpg key:
 
-```
+```bash
 curl -fsSL https://download.docker.com/linux/debian/gpg |
   sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
 
 Install the latest version of docker-ce:
-```
+```bash
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 ```
 
 **Start Docker:**
-```
+```bash
 systemctl start docker
 ```
 
 > [!NOTE]
 > If you experience issues installing Docker CE with the steps above, you can install Docker.io and Docker-CE with the following steps:
 
-```
+```bash
 curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
 echo 'deb [arch=amd64] https://download.docker.com/linux/debian buster stable' | tee /etc/apt/sources.list.d/docker.list
 apt-get update
@@ -93,22 +93,22 @@ systemctl enable docker
 **Installing [Mythic](https://github.com/its-a-feature/Mythic):**
 
 Start with cloning the github repo for Mythic.
-```
+```bash
 git clone https://github.com/its-a-feature/Mythic.git
 ```
 
 Change to the Mythic directory.
-```
+```bash
 cd mythic
 ```
 
 Mythic is controlled via the mythic-cli binary. Run the following to generate the binary from the main Mythic directory.
-```
+```bash
 sudo make
 ```
 
 You can now start the Mythic services.
-```
+```bash
 sudo ./mythic-cli start
 ```
 
@@ -124,7 +124,7 @@ To find your login username and password - cd to the main Mythic directory and v
 
 Go to the [Mythic github overview page](https://mythicmeta.github.io/overview/) and find the Agent Github link for the agent you want to install:
 
-```
+```bash
 sudo ./mythic-cli install github https://github.com/MythicAgents/Apollo.git
 ```
 
@@ -132,7 +132,7 @@ sudo ./mythic-cli install github https://github.com/MythicAgents/Apollo.git
 
 Go to the [Mythic github overview page](https://mythicmeta.github.io/overview/) and find the C2 Profiles Github link for the C2 Profile you want to install:
 
-```
+```bash
 sudo ./mythic-cli install github https://github.com/MythicC2Profiles/http.git
 ```
 
@@ -159,7 +159,7 @@ Click on below and to interact with the agent
 
 ## Other Usefull command
 **Start and Stop Mythic**
-```
+```bash
 sudo ./mythic-cli stop
 sudo ./mythic-cli start
 ```

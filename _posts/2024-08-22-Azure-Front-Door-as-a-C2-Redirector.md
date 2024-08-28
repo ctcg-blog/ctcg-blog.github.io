@@ -149,7 +149,7 @@ tcp.port == 443 && ip.addr == x.x.x.x
 
 ![Configure Azure Front Door](/assets/img/30.png)
 
-# Closing Remarks
+# Final Thoughts
 
 CDN providers such as Azure Front Door, and Cloudflare can be used as 'Cloud Domain Fronting' techniques with good effect. 
 

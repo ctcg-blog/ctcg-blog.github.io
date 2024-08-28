@@ -121,6 +121,8 @@ Azure Front Door Endpoint hostname/URL `test-dnh9h9fyezd8d5f9.a01.azurefd.net`.
 
 **Configure Azure Front Door SSL certificate keychain within C2 Profile**: Add in the Azure Front Door keychain (privkey.pem and fullchain.pem) to the C2 Profile.
 
+![Configure Azure Front Door](/assets/img/34.png)
+
 ![Configure Azure Front Door](/assets/img/31.png)
 
 **Select C2 Profiles**: Set the "Callback Host" within the Mythic C2 framework when creating and configuring your desired payload e.g., Apollo Windows Exe payload utilising the 'http' C2 Profile `https://test-dnh9h9fyezd8d5f9.a01.azurefd.net`.

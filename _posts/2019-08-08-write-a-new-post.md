@@ -1,6 +1,6 @@
 ---
 title: Writing a New Post
-author: Coppertop
+author: R00st3r
 date: 2024-06-19 14:10:00 +0800
 categories: [Blog, Tutorial]
 tags: [writing] #   TAG should always be lowercase

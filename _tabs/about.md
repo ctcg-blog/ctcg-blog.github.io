@@ -11,9 +11,9 @@ Welcome to our IT Security Blog, your go-to resource for cutting-edge insights o
 ## Meet the Team
 
 - **Coppertop**: Master of infrastructure assessment, decent at Web and API testing (we're working on it), expert in blue teaming, and our designated meme and GIF curator—because who says cybersecurity can't have a sense of humor?
-- **Rooster**: Web app wizard, API ninja, cloud connoisseur, and all-around nice guy.
+- **R00st3r**: Web app wizard, API ninja, cloud connoisseur, and all-around nice guy.
 - **Smurfette**: Matriarch of the group, empress of Web and API testing, and unparalleled in writing reports and doing QA's
-- **Clarice**: Mobile, cloud, and all-round pentesting ninja, slicing through vulnerabilities with stealth and precision.
+- **h3ll0clar1c3**: Mobile, cloud, and all-round pentesting ninja, slicing through vulnerabilities with stealth and precision.
 - **Synthetic**: The boss, red teaming enthusiast, and long-term pentesting veteran. Think of him as the Gandalf of cybersecurity—minus the beard.
 
 ## Join Us
@@ -22,4 +22,4 @@ Stay ahead of the curve in cybersecurity. Follow our blog and be part of a commu
 
 ## Legal Notice
 
-The views expressed in this blog are solely those of the authors and do not reflect the opinions or positions of their employers or any affiliated companies.
+The views expressed in this blog are solely those of the authors and do not reflect the opinions or positions of their employers or any affiliated companies. 

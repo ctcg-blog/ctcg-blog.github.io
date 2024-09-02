@@ -1,7 +1,7 @@
 ---
 title: Mythic C2 Framework Installation
 date: 2024-08-25 08:00:00 -500
-Author: R00st3r
+author: R00st3r
 categories: [Blog]
 tags: [c2_framework, mythic]     # TAG names should always be lowercase
 ---

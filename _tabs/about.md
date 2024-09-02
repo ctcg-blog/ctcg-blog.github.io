@@ -20,3 +20,6 @@ Welcome to our IT Security Blog, your go-to resource for cutting-edge insights o
 
 Stay ahead of the curve in cybersecurity. Follow our blog and be part of a community that values knowledge, innovation, and digital safety. Let's explore the ever-evolving landscape of cybersecurity, one exploit at a time.
 
+## Legal Notice
+
+The views expressed in this blog are solely those of the authors and do not reflect the opinions or positions of their employers or any affiliated companies.

@@ -14,7 +14,6 @@ Welcome to our IT Security Blog, your go-to resource for cutting-edge insights o
 - **R00st3r**: Web app wizard, API ninja, cloud connoisseur, and all-around nice guy.
 - **Smurfette**: Matriarch of the group, empress of Web and API testing, and unparalleled in writing reports and doing QA's
 - **h3ll0clar1c3**: Mobile, cloud, and all-round pentesting ninja, slicing through vulnerabilities with stealth and precision.
-- **Synthetic**: The boss, red teaming enthusiast, and long-term pentesting veteran. Think of him as the Gandalf of cybersecurity—minus the beard.
 
 ## Join Us
 

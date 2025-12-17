@@ -7,13 +7,13 @@ tags: [Ethical Hacking, ejpt, ewpt, bscp]     #   TAG should always be lowercase
 
 ---
 
- ## New Session Detected: Welcome phishysiren
+## New Session Detected: Welcome phishysiren
 
- As someone who became interested in cybersecurity because of wanting to help keep people safe online, the idea of being a pentester never even crossed my mind. Truthfully my only real idea of hacking was what I had seen in movies and tv shows. Almost one year into this journey I can assure anyone considering ethical hacking as a career path that while it may not be all dark rooms and green writing on screens it is just as intense.
+As someone who became interested in cybersecurity because of wanting to help keep people safe online, the idea of being a pentester never even crossed my mind. Truthfully my only real idea of hacking was what I had seen in movies and tv shows. Almost one year into this journey I can assure anyone considering ethical hacking as a career path that while it may not be all dark rooms and green writing on screens it is just as intense.
 
- ## Default Profile Loaded: Learning the Basics
+## Default Profile Loaded: Learning the Basics
  
- The first major update to my profile happened when I started working towards the INE eJPT certification. As a complete beginner in penetration testing, with very little cyber security knowledge (I did not even know what TryHackMe or HackTheBox was), this certification really gave me a foundational understanding of pentesting.  The main areas covered were Assessment Methodologies, Host and Network Auditing, Host and Networking Penetration Testing, Web application Penetration Testing. 
+The first major update to my profile happened when I started working towards the INE eJPT certification. As a complete beginner in penetration testing, with very little cyber security knowledge (I did not even know what TryHackMe or HackTheBox was), this certification really gave me a foundational understanding of pentesting.  The main areas covered were Assessment Methodologies, Host and Network Auditing, Host and Networking Penetration Testing, Web application Penetration Testing. 
 
 The eJPT exam is a 48-hour exam in which you are expected to perform an Infrastructure Pentest on a network and answer multiple choice questions. You must get at least 70% to pass the exam. I am happy to report, I passed the exam. 
 
